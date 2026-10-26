@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function CartPage(){return <main className="simplePage"><header className="simpleHeader"><Link className="brand" href="/"><span className="brandMark">E</span><span>Eco <b>Marks</b></span></Link><Link href="/products">← কেনাকাটায় ফিরুন</Link></header><div className="wrap emptyState tall"><span>🛒</span><h1>আপনার কার্ট এখন খালি</h1><p>এটি প্রাথমিক সংস্করণ। কার্যকর কার্ট, checkout ও order database পরের ধাপে যুক্ত হবে।</p><Link className="btn primary" href="/products">পণ্য দেখুন</Link></div></main>}

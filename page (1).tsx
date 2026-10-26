@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function PlaceholderPage(){return <main className="simplePage"><header className="simpleHeader"><Link className="brand" href="/"><span className="brandMark">E</span><span>Eco <b>Marks</b></span></Link><Link href="/">← হোমে ফিরুন</Link></header><div className="wrap emptyState tall"><span>🧩</span><h1>এই সুবিধাটি পরবর্তী ধাপে যুক্ত হবে</h1><p>এই পৃষ্ঠার কাঠামো তৈরি হচ্ছে। অ্যাকাউন্ট, অর্ডার ট্র্যাকিং, সহায়তা ও নীতিমালার পৃষ্ঠা ধাপে ধাপে পূর্ণ করা হবে।</p><Link className="btn primary" href="/">হোমে ফিরুন</Link></div></main>}
